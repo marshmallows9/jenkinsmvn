@@ -4,21 +4,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-
-
-import java.util.concurrent.TimeUnit;
-
 import com.github.javafaker.Faker;
+
+
 
 public class entitycreate {
 
-
-
-
-
-
         public static void main(String[] args) throws InterruptedException{
-            System.setProperty("webdriver.chrome.driver", "/Users/suchismitasethi/Downloads/chromedriver");
+            //System.setProperty("webdriver.chrome.driver", "/Users/suchismitasethi/Downloads/chromedriver");
             WebDriver dr = new ChromeDriver();
 
             Faker faker = new Faker();
