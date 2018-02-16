@@ -11,7 +11,7 @@ import com.github.javafaker.Faker;
 public class entitycreate {
 
         public static void main(String[] args) throws InterruptedException{
-            System.setProperty("webdriver.chrome.driver", "/Users/suchismitasethi/Downloads/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/Users/Shared/Jenkins/Home/workspace/WavefitsAutomation/chromedriver");
             WebDriver dr = new ChromeDriver();
 
             Faker faker = new Faker();
